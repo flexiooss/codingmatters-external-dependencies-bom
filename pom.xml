@@ -113,11 +113,6 @@
                 <artifactId>maven-compat</artifactId>
                 <version>3.3.9</version>
             </dependency>
-            <dependency>
-                <groupId>org.raml</groupId>
-                <artifactId>raml-parser-2</artifactId>
-                <version>1.0.8</version>
-            </dependency>
 
 
 
@@ -164,10 +159,18 @@
                 <artifactId>commonmark</artifactId>
                 <version>0.11.0</version>
             </dependency>
-        </dependencies>
-    </dependencyManagement>    
 
-    <prerequisites>
-        <maven>3.0</maven>
-    </prerequisites>
+            <dependency>
+                <groupId>org.antlr</groupId>
+                <artifactId>antlr4-runtime</artifactId>
+                <version>4.7.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.tinkerpop</groupId>
+                <artifactId>tinkergraph-gremlin</artifactId>
+                <version>3.3.3</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
