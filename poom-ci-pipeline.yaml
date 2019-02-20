@@ -68,3 +68,9 @@ secrets:
   - name: settings.xml
     content: $SRC/.poom-ci-pipeline/settings-oss.xml.enc
     as: file
+  - name: codesigning.asc
+    content: $SRC/.poom-ci-pipeline/codesigning.asc.enc
+    as: file
+  - name: GPG_PASS
+    content: $SRC/.poom-ci-pipeline/gpg.pass.enc
+    as: var
