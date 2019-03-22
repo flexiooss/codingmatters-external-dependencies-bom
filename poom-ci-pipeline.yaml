@@ -54,7 +54,7 @@ env:
 
   - PIPELINES_URL: https://pipelines.ci.flexio.io/pipelines
   - DEPENDENCIES_URL: https://dependencies.ci.flexio.io/poomci-dependency-api
-  - CI_TOOLS_IMAGE: codingmatters/ci-tools:0.0.1-SNAPSHOT
+  - CI_TOOLS_IMAGE: codingmatters/ci-tools:1.2.0-SNAPSHOT
 
   - M2: /tmp/m2
 
