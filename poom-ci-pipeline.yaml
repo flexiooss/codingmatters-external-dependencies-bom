@@ -13,7 +13,7 @@ stages:
   - name: build
     exec:
       - $NOTIFY --data-urlencode "status=2" --data-urlencode "current-stage=$STAGE"
-      - $MVN_DEPLOY
+      - $MVN clean install
 
   - name: deploy
     exec:
