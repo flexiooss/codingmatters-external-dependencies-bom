@@ -57,7 +57,11 @@
                 <artifactId>hamcrest-all</artifactId>
                 <version>1.3</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.hamcrest</groupId>
+                <artifactId>hamcrest-core</artifactId>
+                <version>1.3</version>
+            </dependency>
 
 
             <dependency>
@@ -198,6 +202,11 @@
             </dependency>
             <dependency>
                 <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-core</artifactId>
+                <version>3.8.2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
                 <artifactId>bson</artifactId>
                 <version>3.8.2</version>
             </dependency>
@@ -245,6 +254,44 @@
                 <version>4.0.0</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.xhtmlrenderer</groupId>
+                <artifactId>flying-saucer-pdf-openpdf</artifactId>
+                <version>9.1.18</version>
+            </dependency>
+            <dependency>
+                <groupId>org.xhtmlrenderer</groupId>
+                <artifactId>flying-saucer-core</artifactId>
+                <version>9.1.18</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jsoup</groupId>
+                <artifactId>jsoup</artifactId>
+                <version>1.11.3</version>
+            </dependency>
+            <dependency>
+                <groupId>net.sf.jtidy</groupId>
+                <artifactId>jtidy</artifactId>
+                <version>r938</version>
+            </dependency>
+            <dependency>
+                <groupId>net.sf.cssbox</groupId>
+                <artifactId>cssbox</artifactId>
+                <version>4.14</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xml-apis</groupId>
+                <artifactId>xml-apis</artifactId>
+                <version>1.4.01</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.librepdf</groupId>
+                <artifactId>openpdf</artifactId>
+                <version>1.2.5</version>
+            </dependency>
+
             <!-- SECURITY -->
             <dependency>
                 <groupId>com.auth0</groupId>
@@ -263,6 +310,23 @@
                 <artifactId>hsqldb</artifactId>
                 <version>2.4.0</version>
                 <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.6</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.activation</groupId>
+                <artifactId>activation</artifactId>
+                <version>1.1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sun.mail</groupId>
+                <artifactId>javax.mail</artifactId>
+                <version>1.6.2</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
