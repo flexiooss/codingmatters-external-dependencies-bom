@@ -316,6 +316,11 @@
                 <artifactId>commons-io</artifactId>
                 <version>2.6</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-csv</artifactId>
+                <version>1.6</version>
+            </dependency>
 
             <dependency>
                 <groupId>javax.activation</groupId>
@@ -356,6 +361,7 @@
                                 <requireMavenVersion>
                                     <version>3.0.5</version>
                                 </requireMavenVersion>
+                                <dependencyConvergence />
                             </rules>
                         </configuration>
                     </execution>
