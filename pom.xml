@@ -321,6 +321,11 @@
                 <artifactId>commons-csv</artifactId>
                 <version>1.6</version>
             </dependency>
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>2.6</version>
+            </dependency>
 
             <dependency>
                 <groupId>javax.activation</groupId>
@@ -331,12 +336,40 @@
                 <groupId>com.sun.mail</groupId>
                 <artifactId>javax.mail</artifactId>
                 <version>1.6.2</version>
-	    </dependency>
+	        </dependency>
+
+<!--            SFTP-->
             <dependency>
                 <groupId>com.jcraft</groupId>
                 <artifactId>jsch</artifactId>
                 <version>0.1.55</version>
             </dependency>
+<!--            //SFTP-->
+
+<!--            QUICKBOOKS-->
+            <dependency>
+                <groupId>com.intuit.quickbooks-online</groupId>
+                <artifactId>oauth2-platform-api</artifactId>
+                <version>5.0.3</version>
+            </dependency>
+            <dependency>
+                <groupId>com.intuit.quickbooks-online</groupId>
+                <artifactId>ipp-v3-java-devkit</artifactId>
+                <version>5.0.3</version>
+            </dependency>
+            <dependency>
+                <groupId>com.intuit.quickbooks-online</groupId>
+                <artifactId>ipp-v3-java-devkit</artifactId>
+                <classifier>jar-with-dependencies</classifier>
+                <version>5.0.3</version>
+            </dependency>
+            <dependency>
+                <groupId>com.intuit.quickbooks-online</groupId>
+                <artifactId>ipp-v3-java-data</artifactId>
+                <version>5.0.3</version>
+            </dependency>
+<!--            //QUICKBOOKS-->
+
         </dependencies>
     </dependencyManagement>
 
