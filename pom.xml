@@ -36,11 +36,11 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>ossrh</id>
+            <id>codingmatters-snapshots</id>
             <url>http://maven.ci.flexio.io:8080/repository/codingmatters-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>ossrh</id>
+            <id>codingmatters-releases</id>
             <url>http://maven.ci.flexio.io:8080/repository/codingmatters-releases/</url>
         </repository>
     </distributionManagement>
