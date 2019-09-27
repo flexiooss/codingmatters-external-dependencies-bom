@@ -37,11 +37,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>http://maven.ci.flexio.io:8080/repository/codingmatters-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <url>http://maven.ci.flexio.io:8080/repository/codingmatters-releases/</url>
         </repository>
     </distributionManagement>
 
