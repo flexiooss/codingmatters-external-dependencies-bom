@@ -263,6 +263,13 @@
                 <version>2.6</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.hsqldb</groupId>
+                <artifactId>hsqldb</artifactId>
+                <version>2.4.0</version>
+                <scope>test</scope>
+            </dependency>
+
 <!--            MAIL-->
             <dependency>
                 <groupId>javax.activation</groupId>
@@ -348,13 +355,6 @@
                 <version>1.59</version>
             </dependency>
             <!-- //SECURITY -->
-
-            <dependency>
-                <groupId>org.hsqldb</groupId>
-                <artifactId>hsqldb</artifactId>
-                <version>2.4.0</version>
-                <scope>test</scope>
-            </dependency>
 
 
 
