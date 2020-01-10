@@ -237,7 +237,7 @@
             <dependency>
                 <groupId>com.github.heremaps</groupId>
                 <artifactId>oksse</artifactId>
-                <version>4271ddac93</version>
+                <version>0.9.0</version>
             </dependency>
 
             <dependency>
