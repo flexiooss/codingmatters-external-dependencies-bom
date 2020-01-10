@@ -78,6 +78,7 @@
                 <type>pom</type>
             </dependency>
 
+
             <dependency>
                 <groupId>com.squareup</groupId>
                 <artifactId>javapoet</artifactId>
@@ -85,10 +86,17 @@
             </dependency>
 
             <dependency>
+                <groupId>org.raml</groupId>
+                <artifactId>raml-parser-2</artifactId>
+                <version>1.0.8</version>
+            </dependency>
+
+            <dependency>
                 <groupId>net.sourceforge.plantuml</groupId>
                 <artifactId>plantuml</artifactId>
                 <version>1.2018.1</version>
             </dependency>
+
 
             <dependency>
                 <groupId>org.apache.maven</groupId>
@@ -144,11 +152,6 @@
                 <version>4.3.1</version>
             </dependency>
 
-            <dependency>
-                <groupId>org.raml</groupId>
-                <artifactId>raml-parser-2</artifactId>
-                <version>1.0.8</version>
-            </dependency>
 
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -183,16 +186,12 @@
 
 
             <dependency>
-                <groupId>com.atlassian.commonmark</groupId>
-                <artifactId>commonmark</artifactId>
-                <version>0.11.0</version>
-            </dependency>
-
-            <dependency>
                 <groupId>org.antlr</groupId>
                 <artifactId>antlr4-runtime</artifactId>
                 <version>4.7.1</version>
             </dependency>
+
+
 
             <dependency>
                 <groupId>org.apache.tinkerpop</groupId>
@@ -241,6 +240,43 @@
                 <version>4271ddac93</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.atlassian.commonmark</groupId>
+                <artifactId>commonmark</artifactId>
+                <version>0.11.0</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-csv</artifactId>
+                <version>1.6</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>2.6</version>
+            </dependency>
+
+<!--            MAIL-->
+            <dependency>
+                <groupId>javax.activation</groupId>
+                <artifactId>activation</artifactId>
+                <version>1.1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sun.mail</groupId>
+                <artifactId>javax.mail</artifactId>
+                <version>1.6.2</version>
+            </dependency>
+<!--            //MAIL-->
+
+            <!-- PDF -->
 
             <dependency>
                 <groupId>org.apache.pdfbox</groupId>
@@ -297,6 +333,8 @@
                 <artifactId>openpdf</artifactId>
                 <version>1.2.5</version>
             </dependency>
+            <!-- //PDF -->
+
 
             <!-- SECURITY -->
             <dependency>
@@ -309,7 +347,7 @@
                 <artifactId>bcprov-jdk15on</artifactId>
                 <version>1.59</version>
             </dependency>
-
+            <!-- //SECURITY -->
 
             <dependency>
                 <groupId>org.hsqldb</groupId>
@@ -318,32 +356,7 @@
                 <scope>test</scope>
             </dependency>
 
-            <dependency>
-                <groupId>commons-io</groupId>
-                <artifactId>commons-io</artifactId>
-                <version>2.6</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-csv</artifactId>
-                <version>1.6</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-lang</groupId>
-                <artifactId>commons-lang</artifactId>
-                <version>2.6</version>
-            </dependency>
 
-            <dependency>
-                <groupId>javax.activation</groupId>
-                <artifactId>activation</artifactId>
-                <version>1.1</version>
-            </dependency>
-            <dependency>
-                <groupId>com.sun.mail</groupId>
-                <artifactId>javax.mail</artifactId>
-                <version>1.6.2</version>
-	        </dependency>
 
 <!--            SFTP-->
             <dependency>
