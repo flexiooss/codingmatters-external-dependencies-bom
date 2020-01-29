@@ -6,7 +6,7 @@
 
     <groupId>org.codingmatters</groupId>
     <artifactId>codingmatters-external-dependencies-bom</artifactId>
-    <version>1.11.0</version>
+    <version>1.12.0</version>
     <packaging>pom</packaging>
 
     <name>External dependencies for codingmatters modules</name>
@@ -353,6 +353,12 @@
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi</artifactId>
                 <version>4.0.0</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-codec</groupId>
+                        <artifactId>commons-codec</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
             <dependency>
@@ -430,6 +436,16 @@
                 <groupId>com.intuit.quickbooks-online</groupId>
                 <artifactId>oauth2-platform-api</artifactId>
                 <version>5.0.3</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>oauth.signpost</groupId>
+                        <artifactId>signpost-core</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>commons-codec</groupId>
+                        <artifactId>commons-codec</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.intuit.quickbooks-online</groupId>
