@@ -126,21 +126,11 @@
                 <groupId>org.apache.maven</groupId>
                 <artifactId>maven-plugin-api</artifactId>
                 <version>3.6.3</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.codehaus.plexus</groupId>
-                        <artifactId>plexus-component-annotations</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.codehaus.plexus</groupId>
-                        <artifactId>plexus-utils</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.apache.maven.plugin-tools</groupId>
                 <artifactId>maven-plugin-annotations</artifactId>
-                <version>3.6.1-SNAPSHOT</version>
+                <version>3.6.0</version>
             </dependency>
 
             <dependency>
@@ -159,12 +149,6 @@
                 <groupId>org.apache.maven</groupId>
                 <artifactId>maven-core</artifactId>
                 <version>3.6.3</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.codehaus.plexus</groupId>
-                        <artifactId>plexus-utils</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.apache.maven</groupId>
@@ -176,12 +160,6 @@
                 <groupId>org.apache.maven</groupId>
                 <artifactId>maven-compat</artifactId>
                 <version>3.6.3</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.codehaus.plexus</groupId>
-                        <artifactId>plexus-utils</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
 
 
@@ -544,7 +522,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-plugin-plugin</artifactId>
-                    <version>3.6.1-SNAPSHOT</version>
+                    <version>3.6.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
