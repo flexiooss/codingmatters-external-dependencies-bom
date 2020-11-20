@@ -6,7 +6,7 @@
 
     <groupId>org.codingmatters</groupId>
     <artifactId>codingmatters-external-dependencies-bom</artifactId>
-    <version>1.28.0</version>
+    <version>1.29.0</version>
     <packaging>pom</packaging>
 
     <name>External dependencies for codingmatters modules</name>
