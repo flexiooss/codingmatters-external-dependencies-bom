@@ -244,18 +244,18 @@
 
             <dependency>
                 <groupId>org.mongodb</groupId>
-                <artifactId>mongodb-driver</artifactId>
-                <version>3.12.0</version>
+                <artifactId>mongodb-driver-sync</artifactId>
+                <version>4.4.0</version>
             </dependency>
             <dependency>
                 <groupId>org.mongodb</groupId>
                 <artifactId>mongodb-driver-core</artifactId>
-                <version>3.12.0</version>
+                <version>4.4.0</version>
             </dependency>
             <dependency>
                 <groupId>org.mongodb</groupId>
                 <artifactId>bson</artifactId>
-                <version>3.12.0</version>
+                <version>4.4.0</version>
             </dependency>
 
 
