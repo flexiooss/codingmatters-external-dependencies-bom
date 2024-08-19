@@ -6,7 +6,7 @@
 
     <groupId>org.codingmatters</groupId>
     <artifactId>codingmatters-external-dependencies-bom</artifactId>
-    <version>1.48.0</version>
+    <version>1.49.0</version>
     <packaging>pom</packaging>
 
     <name>External dependencies for codingmatters modules</name>
@@ -29,7 +29,7 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:nelt/codingmatters-reflect-unit</connection>
+        <connection>scm:git:git@github.com:nelt/codingmatters-external-dependencies</connection>
         <developerConnection>scm:git:git@github.com:flexiooss/codingmatters-external-dependencies-bom.git</developerConnection>
         <url>git@github.com:flexiooss/codingmatters-external-dependencies-bom.git</url>
     </scm>
@@ -61,7 +61,7 @@
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <version>4.13</version>
+                <version>4.13.2</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.hamcrest</groupId>
@@ -72,6 +72,27 @@
                         <artifactId>hamcrest-all</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>5.11.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-api</artifactId>
+                <version>5.11.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-engine</artifactId>
+                <version>5.11.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-params</artifactId>
+                <version>5.11.0</version>
             </dependency>
 
             <dependency>
