@@ -325,6 +325,11 @@
                 <artifactId>commons-lang</artifactId>
                 <version>2.6</version>
             </dependency>
+            <dependency>
+                <groupId>commons-net</groupId>
+                <artifactId>commons-net</artifactId>
+                <version>3.11.1</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.hsqldb</groupId>
