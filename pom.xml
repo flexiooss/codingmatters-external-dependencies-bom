@@ -6,7 +6,7 @@
 
     <groupId>org.codingmatters</groupId>
     <artifactId>codingmatters-external-dependencies-bom</artifactId>
-    <version>1.58.0</version>
+    <version>1.59.0</version>
     <packaging>pom</packaging>
 
     <name>External dependencies for codingmatters modules</name>
@@ -30,7 +30,8 @@
 
     <scm>
         <connection>scm:git:git@github.com:nelt/codingmatters-external-dependencies</connection>
-        <developerConnection>scm:git:git@github.com:flexiooss/codingmatters-external-dependencies-bom.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:flexiooss/codingmatters-external-dependencies-bom.git
+        </developerConnection>
         <url>git@github.com:flexiooss/codingmatters-external-dependencies-bom.git</url>
     </scm>
 
@@ -183,7 +184,6 @@
             </dependency>
 
 
-
             <dependency>
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-core</artifactId>
@@ -196,7 +196,7 @@
                 <version>2.0.29.Final</version>
             </dependency>
 
-<!--            okhttp-->
+            <!--            okhttp-->
             <dependency>
                 <groupId>com.squareup.okhttp3</groupId>
                 <artifactId>okhttp</artifactId>
@@ -214,7 +214,7 @@
                 <artifactId>kotlin-stdlib</artifactId>
                 <version>1.5.31</version>
             </dependency>
-<!--            // okhttp-->
+            <!--            // okhttp-->
 
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -255,7 +255,6 @@
             </dependency>
 
 
-
             <dependency>
                 <groupId>org.apache.tinkerpop</groupId>
                 <artifactId>tinkergraph-gremlin</artifactId>
@@ -266,7 +265,6 @@
                 <artifactId>gremlin-driver</artifactId>
                 <version>3.4.0</version>
             </dependency>
-
 
 
             <dependency>
@@ -338,7 +336,7 @@
                 <scope>test</scope>
             </dependency>
 
-<!--            MAIL-->
+            <!--            MAIL-->
             <dependency>
                 <groupId>javax.activation</groupId>
                 <artifactId>activation</artifactId>
@@ -349,7 +347,7 @@
                 <artifactId>javax.mail</artifactId>
                 <version>1.6.2</version>
             </dependency>
-<!--            //MAIL-->
+            <!--            //MAIL-->
 
             <!-- PDF -->
 
@@ -431,17 +429,16 @@
             <!-- //SECURITY -->
 
 
-
-<!--            SFTP-->
+            <!--            SFTP-->
             <dependency>
                 <groupId>com.jcraft</groupId>
                 <artifactId>jsch</artifactId>
                 <version>0.1.55</version>
             </dependency>
-<!--            //SFTP-->
+            <!--            //SFTP-->
 
 
-<!--            QUICKBOOKS-->
+            <!--            QUICKBOOKS-->
             <dependency>
                 <groupId>com.intuit.quickbooks-online</groupId>
                 <artifactId>oauth2-platform-api</artifactId>
@@ -473,12 +470,12 @@
                 <artifactId>ipp-v3-java-data</artifactId>
                 <version>5.0.3</version>
             </dependency>
-<!--            //QUICKBOOKS-->
+            <!--            //QUICKBOOKS-->
 
             <dependency>
                 <artifactId>keycloak-parent</artifactId>
                 <groupId>org.keycloak</groupId>
-                <version>8.0.1</version>
+                <version>21.1.2</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -516,8 +513,7 @@
             </dependency>
 
 
-
-<!--            GATLING-->
+            <!--            GATLING-->
 
             <dependency>
                 <groupId>io.gatling</groupId>
@@ -578,9 +574,9 @@
                 <version>2.13.10</version>
             </dependency>
 
-<!--            //GATLING-->
+            <!--            //GATLING-->
 
-<!--            OPEN TELEMETRY-->
+            <!--            OPEN TELEMETRY-->
 
             <dependency>
                 <groupId>io.opentelemetry.instrumentation</groupId>
@@ -592,8 +588,13 @@
                 <artifactId>opentelemetry-javaagent</artifactId>
                 <version>2.17.0</version>
             </dependency>
+            <dependency>
+                <groupId>io.opentelemetry</groupId>
+                <artifactId>opentelemetry-api</artifactId>
+                <version>1.51.0</version>
+            </dependency>
 
-<!--       //     OPEN TELEMETRY-->
+            <!--       //     OPEN TELEMETRY-->
 
         </dependencies>
     </dependencyManagement>
@@ -624,7 +625,7 @@
                                 <requireMavenVersion>
                                     <version>3.0.5</version>
                                 </requireMavenVersion>
-                                <dependencyConvergence />
+                                <dependencyConvergence/>
                             </rules>
                         </configuration>
                     </execution>
