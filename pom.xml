@@ -6,7 +6,7 @@
 
     <groupId>org.codingmatters</groupId>
     <artifactId>codingmatters-external-dependencies-bom</artifactId>
-    <version>1.61.0</version>
+    <version>1.62.0</version>
     <packaging>pom</packaging>
 
     <name>External dependencies for codingmatters modules</name>
@@ -429,9 +429,23 @@
             <dependency>
                 <groupId>org.bouncycastle</groupId>
                 <artifactId>bcprov-jdk15on</artifactId>
-                <version>1.59</version>
+                <version>1.70</version>
             </dependency>
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcprov-jdk18on</artifactId>
+                <version>1.81</version>
+            </dependency>
+
             <!-- //SECURITY -->
+
+<!--            ACME-->
+            <dependency>
+                <groupId>org.shredzone.acme4j</groupId>
+                <artifactId>acme4j-client</artifactId>
+                <version>3.5.1</version>
+            </dependency>
+<!--            //ACME-->
 
 
             <!--            SFTP-->
