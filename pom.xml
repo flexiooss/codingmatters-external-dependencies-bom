@@ -82,6 +82,13 @@
                 <type>pom</type>
             </dependency>
 
+
+            <dependency> <!--  surefire need this dependency to detect junit5 tests     -->
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-api</artifactId>
+                <version>5.13.4</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.fasterxml.jackson</groupId>
                 <artifactId>jackson-bom</artifactId>
@@ -89,7 +96,6 @@
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
-
 
             <dependency>
                 <groupId>com.squareup</groupId>
