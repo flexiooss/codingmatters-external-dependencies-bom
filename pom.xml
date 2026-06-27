@@ -116,9 +116,10 @@
             </dependency>
 
             <dependency>
+                <!-- variante MIT (l'artefact "plantuml" est sous GPL) -->
                 <groupId>net.sourceforge.plantuml</groupId>
-                <artifactId>plantuml</artifactId>
-                <version>1.2019.13</version>
+                <artifactId>plantuml-mit</artifactId>
+                <version>1.2026.6</version>
             </dependency>
 
 
